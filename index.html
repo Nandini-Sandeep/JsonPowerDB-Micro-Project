@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Enrollment Form</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h2>Student Enrollment Form</h2>
+    <form id="studentForm">
+        <label for="rollNo">Roll No:</label><br>
+        <input type="text" id="rollNo" name="rollNo"><br><br>
+        
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" disabled><br><br>
+        
+        <label for="class">Class:</label><br>
+        <input type="text" id="class" name="class" disabled><br><br>
+        
+        <label for="birthDate">Birth Date:</label><br>
+        <input type="date" id="birthDate" name="birthDate" disabled><br><br>
+        
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" disabled><br><br>
+        
+        <label for="enrollmentDate">Enrollment Date:</label><br>
+        <input type="date" id="enrollmentDate" name="enrollmentDate" disabled><br><br>
+        
+        <button type="button" id="saveBtn" disabled>Save</button>
+        <button type="button" id="updateBtn" disabled>Update</button>
+        <button type="button" id="resetBtn">Reset</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
